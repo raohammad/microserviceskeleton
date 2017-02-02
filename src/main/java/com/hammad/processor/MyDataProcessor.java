@@ -9,19 +9,11 @@ import org.springframework.messaging.handler.annotation.SendTo;
 
 import com.hammad.domain.Data;
 
-/*
- * author: hammadakhan
- * Processor of domain object Data. 
- * Subscriber to Processor.INPUT queue
- * Publisher for Processor.OUTPUT queue
- * Change in application-prod.yml/application-dev.yml for topic names accordingly
- */
-
 @EnableBinding(Processor.class)
-public class DataProcessor {
+public class MyDataProcessor {
 	
 	private final int VERSION=100;
-	private static Logger logger = LoggerFactory.getLogger(DataProcessor.class);
+	private static Logger logger = LoggerFactory.getLogger(MyDataProcessor.class);
 	
 	/*
 	 * Requirement: receive the message from topic queue

@@ -2,7 +2,7 @@
 
 This is a small demonstration of micro services development using spring, kafka/zookeeper. Code provides 
 
-DataSource -> DataProcessor -> DataSink 
+'DataSource, MyDataProcessor, DataSink' 
 
 for a Data object using Kafka broker. It also provides support for CI (Contineous Integration) using Jenkins2
 

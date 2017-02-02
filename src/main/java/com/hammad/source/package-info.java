@@ -1,7 +1,4 @@
 /**
- * Package to contain all SOURCEs
- */
-/**
  * @author hammadakhan
  *
  */

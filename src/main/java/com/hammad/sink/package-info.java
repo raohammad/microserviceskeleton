@@ -1,7 +1,4 @@
 /**
- * Package to contain all SINKs
- */
-/**
  * @author hammadakhan
  *
  */
