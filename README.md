@@ -32,4 +32,14 @@ To stop it and remove the container, run:
 
     docker-compose -f src/main/docker/app.yml down
 
-Note: This skeleton is ready for extension for AngularJS based front-end as well. 
+
+## Troubleshooting
+
+In some instances, you will notice failure while building because following environment variables need settings;
+
+DOCKER_CERT_PATH=/Users/<username>/.docker/machine/certs/
+DOCKER_HOST=tcp://192.168.59.103:2376
+DOCKER_TLS_VERIFY=1
+
+like;
+export DOCKER_HOST=tcp://192.168.99.100:2376
