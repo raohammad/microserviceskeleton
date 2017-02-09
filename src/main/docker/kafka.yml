@@ -15,3 +15,8 @@ services:
             KAFKA_CREATE_TOPICS: "inputtopic:1:1"
         ports:
             - 9092:9092
+    grafana:
+        image: grafana/grafana:latest
+        container_name: grafana
+        ports:
+            - 3000:3000
