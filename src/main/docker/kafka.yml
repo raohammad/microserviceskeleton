@@ -15,8 +15,14 @@ services:
             KAFKA_CREATE_TOPICS: "inputtopic:1:1"
         ports:
             - 9092:9092
+            - 7071:7071
     grafana:
         image: grafana/grafana:latest
         container_name: grafana
         ports:
             - 3000:3000
+    prometheus:
+        image: prom/prometheus:latest
+        container_name: prometheus
+        ports:
+            - 9090:9090

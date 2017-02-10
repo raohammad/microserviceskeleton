@@ -6,6 +6,7 @@ services:
             - kafka:kafka
             - zookeeper:zookeeper
             - grafana:grafana
+            - prometheus:prometheus
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_CLOUD_STREAM_KAFKA_BINDER_BROKERS=kafka
@@ -24,4 +25,8 @@ services:
         extends:
             file: kafka.yml
             service: grafana
+    prometheus:
+        extends:
+            file: kafka.yml
+            service: prometheus
             
