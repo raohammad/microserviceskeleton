@@ -12,12 +12,14 @@ In order to test this application in a docker environment; you must have docker 
 
 ## Monitoring
 
-Monitoring of Kafka queues is done through Grafana therefore, Kafka needs to be started with JMX exporter as command line argument together with Prometheus. In order to setup monitoring, following steps are needed for Dockers included with application;
+Monitoring of Kafka queues is done through Grafana therefore, Kafka needs to be started with JMX exporter from prometheus. Prometheus/Grafana are integrated with application for perormance and kaka queues monitoring. 
 
 
-## Building for Production ('prod') profile with Docker 
+## Building for Production with Docker 
 
 Since Kafka/Zookeeper are required for publisher/subscriber messaging system, a docker file is provided that already contains kafka, zookeeper, prometheus, graphana and graf_db images. To fully dockerize this application and all the services that it depends on, build with production profile with docker support as below;
+
+	Download repository and execute following in root directory
 
 	./mvnw package -Pprod docker:build
 
