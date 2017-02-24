@@ -14,7 +14,7 @@ In order to test this application in a docker environment; you must have docker 
 
 ## Monitoring
 
-Monitoring of Kafka queues is done through Grafana therefore, Kafka needs to be started with JMX exporter from prometheus. Prometheus/Grafana are integrated with application for perormance and kaka queues monitoring. 
+Monitoring of Kafka queues is done through Grafana therefore, Kafka needs to be started with JMX exporter from prometheus. Prometheus/Grafana are integrated with application for performance and kafka queues monitoring. 
 
 
 ## Building for Production with Docker 
