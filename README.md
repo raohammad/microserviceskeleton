@@ -1,8 +1,10 @@
 # About
 
-This is a demonstration of micro services development using spring, kafka/zookeeper. Code provides 
+This is a skeleton of micro spring based services development using kafka/zookeeper for event driven architecture. Code provides 
 
 'DataSource, MyDataProcessor, DataSink' 
+
+together with events pipeline build as docker containers
 
 
 ## Pre-requisites
