@@ -1,10 +1,10 @@
 # About
 
-This is a skeleton of microservices development based on spring using kafka/zookeeper for event driven architecture. Code provides 
+This is a skeleton of microservices development based on spring using kafka/zookeeper for event driven architecture. Code provides; 
 
 'DataSource, MyDataProcessor, DataSink' 
 
-together with events pipeline build as docker containers
+together with events pipeline built as docker containers
 
 
 ## Pre-requisites
