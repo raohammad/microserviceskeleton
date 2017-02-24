@@ -10,7 +10,7 @@ import org.springframework.messaging.SubscribableChannel;
 import com.hammad.domain.Data;
 
 /*
- * author: hammadakhan
+ * author: raohammad
  * Sink for domain object Data. 
  * Subscriber to DataSink.Sink.DATASINK queue
  * Change in application-prod.yml/application-dev.yml for topic names accordingly

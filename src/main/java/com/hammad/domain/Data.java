@@ -3,7 +3,7 @@ package com.hammad.domain;
 import java.util.Date;
 
 /*
- * author: hammadakhan
+ * author: raohammad
  * This is domain object that is submitted/processed/received
  * 
  */

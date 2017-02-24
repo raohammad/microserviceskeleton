@@ -32,7 +32,16 @@ To stop it and remove the container, run:
 
     docker-compose -f src/main/docker/app.yml down
 
+## Accessibility
 
+Kafka mertics exposed through JMX is visible here;
+    
+    http://<IP-ADDRESS-OF-KAFKA-BROKER>:8080/metrics
+
+Grafana Dashboard is accessible here
+
+	http://<IP-ADDRESS-OF-KAFKA-BROKER>:3000
+	
 ## Troubleshooting
 
 In some instances, you will notice failure while building because following environment variables need settings;
